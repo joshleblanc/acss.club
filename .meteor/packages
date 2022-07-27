@@ -24,3 +24,5 @@ mdg:validated-method
 fetch
 email
 accounts-passwordless
+accounts-base
+accounts-password
