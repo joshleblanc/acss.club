@@ -15,7 +15,9 @@ export const App = () => {
       <div class="prose flex items-center max-w-full w-full mb-4 flex-col">
         <h1 class="mb-0">ACSS</h1>
         <h6 class="mt-0">
-            Next tournament: <a href={nextTournament.challongeUrl}>{nextTournament?.name}</a>
+            {
+              nextTournament && <>Next tournament: <a href={nextTournament.challongeUrl}>{nextTournament?.name}</a></>
+            }
         </h6>
       </div>
       <Routes>
