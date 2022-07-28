@@ -38,7 +38,7 @@ export const Matches = () => {
     }
     return(
         <>
-            <div class="flex">
+            <div class="flex mb-4">
                 <Link className="btn btn-xs opacity-50" to="/">Back</Link>
                 <h1 className="mx-4">{player.name}'s Matches</h1>
             </div>

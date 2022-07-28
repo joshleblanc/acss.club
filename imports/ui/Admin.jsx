@@ -2,6 +2,7 @@ import React from 'react';
 import { useTracker } from "meteor/react-meteor-data";
 import { PlayerForm } from "./PlayerForm";
 import { MatchForm } from "./MatchForm";
+import { Navigate } from "react-router-dom";
 import { TournamentForm } from "./TournamentForm";
 
 export const Admin = () => {
